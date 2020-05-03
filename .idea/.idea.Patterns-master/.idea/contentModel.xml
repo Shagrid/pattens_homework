@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\shagr\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\shagr\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Patterns-master.337230215.00" t="ExcludeRecursive" />
+    <e p="C:\Users\shagr\Documents\GitHub\pattens_homework\Patterns-master" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="BehavioralPatterns" t="Include">
+          <e p="Chain Of Responsibility" t="Include">
+            <e p="ChainOfResponsibilityTest.cs" t="Include" />
+            <e p="GameHandler.cs" t="Include" />
+            <e p="IGameHandler.cs" t="Include" />
+            <e p="MoveToPosition.cs" t="Include" />
+            <e p="RotateAFewSeconds.cs" t="Include" />
+          </e>
+          <e p="Command" t="Include">
+            <e p="ExampleFirst" t="Include">
+              <e p="BaseUi.cs" t="Include" />
+              <e p="PanelOne.cs" t="Include" />
+              <e p="PanelTwo.cs" t="Include" />
+              <e p="StateUI.cs" t="Include" />
+              <e p="UserInterface.cs" t="Include" />
+            </e>
+            <e p="ExampleSecond" t="Include">
+              <e p="Command.cs" t="Include" />
+              <e p="DoNothing.cs" t="Include" />
+              <e p="InputHandler.cs" t="Include" />
+              <e p="MoveForward.cs" t="Include" />
+              <e p="MoveLeft.cs" t="Include" />
+              <e p="MoveReverse.cs" t="Include" />
+              <e p="MoveRight.cs" t="Include" />
+              <e p="ReplayCommand.cs" t="Include" />
+              <e p="UndoCommand.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Interpreter" t="Include">
+            <e p="InterpreterTest.cs" t="Include" />
+          </e>
+          <e p="Iterator" t="Include">
+            <e p="ExampleIndexer.cs" t="Include" />
+            <e p="Students.cs" t="Include" />
+          </e>
+          <e p="Mediator" t="Include">
+            <e p="Controller.cs" t="Include" />
+            <e p="MediatorTest.cs" t="Include" />
+            <e p="Model.cs" t="Include" />
+            <e p="View.cs" t="Include" />
+          </e>
+          <e p="Memento" t="Include">
+            <e p="PointInTime.cs" t="Include" />
+            <e p="TimeBody.cs" t="Include" />
+          </e>
+          <e p="Null Object" t="Include">
+            <e p="NullObjectTest.cs" t="Include" />
+          </e>
+          <e p="Observer" t="Include">
+            <e p="ExampleFirst" t="Include">
+              <e p="Enemy.cs" t="Include" />
+              <e p="IHit.cs" t="Include" />
+              <e p="ListenerHitShowDamage.cs" t="Include" />
+              <e p="ObserverTest.cs" t="Include" />
+            </e>
+          </e>
+          <e p="State" t="Include">
+            <e p="ConcreteStateA.cs" t="Include" />
+            <e p="ConcreteStateB.cs" t="Include" />
+            <e p="Context.cs" t="Include" />
+            <e p="Info.txt" t="Include" />
+            <e p="State.cs" t="Include" />
+            <e p="StateTest.cs" t="Include" />
+          </e>
+          <e p="Strategy" t="Include">
+            <e p="BaseBehaviour.cs" t="Include" />
+            <e p="MoveBehaviour.cs" t="Include" />
+            <e p="RotateBehaviour.cs" t="Include" />
+            <e p="StrategyTest.cs" t="Include" />
+          </e>
+          <e p="TemplateMethod" t="Include">
+            <e p="Site.cs" t="Include" />
+            <e p="TemplateMethodTest.cs" t="Include" />
+            <e p="VK.cs" t="Include" />
+          </e>
+          <e p="Visitor" t="Include">
+            <e p="ExampleHit" t="Include">
+              <e p="ApplayDamage.cs" t="Include" />
+              <e p="ConsoleDisplay.cs" t="Include" />
+              <e p="Enemy.cs" t="Include" />
+              <e p="Environment.cs" t="Include" />
+              <e p="Hit.cs" t="Include" />
+              <e p="IDealingDamage.cs" t="Include" />
+              <e p="InfoCollision.cs" t="Include" />
+              <e p="Knight.cs" t="Include" />
+              <e p="VisitorTest.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="CreationalPatterns" t="Include">
+          <e p="Abstrac Factory" t="Include">
+            <e p="UiSystemPlatformsFactoryUsage.ConcreteFactories.cs" t="Include" />
+            <e p="UiSystemPlatformsFactoryUsage.ConcreteProducts.cs" t="Include" />
+            <e p="UiSystemPlatformsFactoryUsage.cs" t="Include" />
+            <e p="UiSystemPlatformsFactoryUsage.Factories.cs" t="Include" />
+            <e p="UiSystemPlatformsFactoryUsage.Products.cs" t="Include" />
+            <e p="UiSystemPlatformsFactoryUsage.UiFactorySystem.cs" t="Include" />
+          </e>
+          <e p="Builder" t="Include">
+            <e p="Builder.cs" t="Include" />
+            <e p="BuilderExtensions.cs" t="Include" />
+            <e p="BuilderTest.cs" t="Include" />
+          </e>
+          <e p="FactoryMethod" t="Include">
+            <e p="AssetPath.cs" t="Include" />
+            <e p="BigEnemy.cs" t="Include" />
+            <e p="BigEnemyFactory.cs" t="Include" />
+            <e p="CreatorEnemies.cs" t="Include" />
+            <e p="Enemy.cs" t="Include" />
+            <e p="EnemyType.cs" t="Include" />
+            <e p="Hp.cs" t="Include" />
+            <e p="ICreatorEnemy.cs" t="Include" />
+            <e p="SmallEnemy.cs" t="Include" />
+            <e p="SmallEnemyFactory.cs" t="Include" />
+          </e>
+          <e p="ObjectPool" t="Include">
+            <e p="Ammunition.cs" t="Include" />
+            <e p="AmmunitionPool.cs" t="Include" />
+            <e p="AmmunitionType.cs" t="Include" />
+            <e p="AssetsPathAmmunition.cs" t="Include" />
+            <e p="AxisManager.cs" t="Include" />
+            <e p="Bullet.cs" t="Include" />
+            <e p="CustomResources.cs" t="Include" />
+            <e p="Gun.cs" t="Include" />
+            <e p="NameManager.cs" t="Include" />
+          </e>
+          <e p="Prototype" t="Include">
+            <e p="DeepCopyExample.cs" t="Include" />
+            <e p="ObjectExtensions.cs" t="Include" />
+            <e p="PrototypeTest.cs" t="Include" />
+          </e>
+          <e p="Singleton" t="Include">
+            <e p="Manager.cs" t="Include" />
+            <e p="Services.cs" t="Include" />
+            <e p="SingletonMonoBehaviour.cs" t="Include" />
+            <e p="TestSingleton.cs" t="Include" />
+          </e>
+        </e>
+        <e p="StructuralPatterns" t="Include">
+          <e p="Adapter" t="Include">
+            <e p="AdapterTest.cs" t="Include" />
+            <e p="AttackBullet.cs" t="Include" />
+            <e p="Enemy.cs" t="Include" />
+            <e p="IAttack.cs" t="Include" />
+            <e p="IFire.cs" t="Include" />
+          </e>
+          <e p="Bridge" t="Include">
+            <e p="Abstraction.cs" t="Include" />
+            <e p="BridgeTest.cs" t="Include" />
+            <e p="ConcreteImplementorA.cs" t="Include" />
+            <e p="ConcreteImplementorB.cs" t="Include" />
+            <e p="Implementor.cs" t="Include" />
+            <e p="RefinedAbstraction.cs" t="Include" />
+          </e>
+          <e p="Composite" t="Include">
+            <e p="CompositeTest.cs" t="Include" />
+            <e p="Detachment.cs" t="Include" />
+            <e p="IAttack.cs" t="Include" />
+            <e p="Unit.cs" t="Include" />
+          </e>
+          <e p="Decorator" t="Include">
+            <e p="AssetPath.cs" t="Include" />
+            <e p="DecoratorTest.cs" t="Include" />
+            <e p="Info.txt" t="Include" />
+            <e p="ModificationMuffler.cs" t="Include" />
+            <e p="ModificationWeapon.cs" t="Include" />
+            <e p="ModificationWeaponType.cs" t="Include" />
+            <e p="Weapon.cs" t="Include" />
+          </e>
+          <e p="Facade" t="Include">
+            <e p="FacadeTest.cs" t="Include" />
+          </e>
+          <e p="Flyweight" t="Include">
+            <e p="FlyweightTest.cs" t="Include" />
+            <e p="Info.txt" t="Include" />
+          </e>
+          <e p="Info.txt" t="Include" />
+          <e p="Proxy" t="Include">
+            <e p="IMath.cs" t="Include" />
+            <e p="Info.txt" t="Include" />
+            <e p="Math.cs" t="Include" />
+            <e p="MathProxy.cs" t="Include" />
+            <e p="ProxyTest.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Patterns-master.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
