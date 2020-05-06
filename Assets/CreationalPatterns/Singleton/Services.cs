@@ -6,6 +6,8 @@ namespace Singleton
 {
     public sealed class Services
     {
+        private static readonly object _lock = new object();
+        
         #region Fields
         
         private static readonly Lazy<Services> _instance = 
@@ -26,7 +28,18 @@ namespace Singleton
         
         #region Properties
 
-        public static Services Instance => _instance.Value;
+        //public static Services Instance => _instance.Value;
+        public static Services Instance
+        {
+            
+            get
+            {
+                lock (_lock)
+                {
+                    return _instance.Value; 
+                }
+            }
+        }
         
         #endregion
         
